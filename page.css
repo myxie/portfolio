@@ -1,9 +1,9 @@
 height-full {
-  height: 100vh;
+  height: 100%;
 }
 
 html, body, .container-table {
-   height:  100vh;
+   height:  100%;
 }
 
 .font-heading{
@@ -44,40 +44,23 @@ a {
   font-size: 40px;
 }
 
-.bg-dark {
-  background-color: #3399FF;
-  color: #fff;
-}
 .container-table {
     display: table;
 }
 
 .vertical-center-row {
-    display: table-cell;
-    vertical-align: middle;
+    /*display: table-cell;*/
+/*    vertical-align: middle;
+*/    
+/*margin-top:50%;*/
+
 }
 
-.form-group {
- padding-top: 20px;
- width: 100%;
+.img-group {
+  margin-top:50%
+  /*bottom:50%;*/
 }
 
-.form-centered {
+.img-centered {
   @extend .col-md-12;
 }
-
-.email{
-  @extend .col-sm-9 ;
-  padding-bottom: 15px;
-  width: 100%;
-}
-
-.submit {
-  @extend .btn;
-  @extend .btn-primary;
-}
-
-.submit-center {
-   margin: 20px; 
-}
-
