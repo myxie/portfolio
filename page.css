@@ -6,16 +6,42 @@ html, body, .container-table {
    height:  100vh;
 }
 
-.codewa{
-    font-family: 'Inconsolata', monospace;
+.font-heading{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight:600;
+;
 }
 
-.brackets{
-  color: orange;
+.font-sub-headings{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight:600;
+}
+  
+.font-text{ 
+  font-family: 'Cormorant Garamond', serif;     
+  font-size: 20px
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
+}
+
+.about{
+  display:block;
+}
+.portfolio{
+  display:none;
+}
+.resume{
+  display:none;
+}
+.contact{
+  display:none;
 }
 
 .li{
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .bg-dark {
