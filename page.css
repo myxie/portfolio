@@ -1,15 +1,27 @@
-height-full {
-  height: 100%;
-}
-
 html, body, .container-table {
-   height:  100%;
+   height:  100v;
+}
+.container-table {
+  vertical-align: top;
+    /*margin-top:50%;*/
 }
 
+.img-group {
+  margin-top:5%
+  /*bottom:50%;*/
+}
+
+.wrapper {    
+  vertical-align:top;
+}
+
+/*p {
+  width: 100px;
+}
+*/
 .font-heading{
   font-family: 'Cormorant Garamond', serif;
   font-weight:600;
-;
 }
 
 .font-sub-headings{
@@ -23,12 +35,13 @@ html, body, .container-table {
 }
 
 a {
-    text-decoration: none; 
+    /*text-decoration: none; */
     color: black; 
 }
 
 .about{
-  display:block;
+  display:block
+
 }
 .portfolio{
   display:none;
@@ -36,32 +49,38 @@ a {
 .resume{
   display:none;
 }
+
 .contact{
   display:none;
 }
 
 .li{
+  display: inline-block;
+  /*text-align: center;*/
   font-size: 40px;
 }
 
-.container-table {
-    display: table;
-    /*margin-top:50%;*/
+.ul {
+  display: inline;  
 }
 
-.vertical-center-row {
-    /*display: table-cell;*/
-/*    vertical-align: middle;
-*/    
-/*margin-top:50%;*/
 
+#lists {
+  margin: 0 auto 0 auto;
+  text-align: left;
+  width:500px;
 }
 
-.img-group {
-  margin-top:50%
-  /*bottom:50%;*/
+#lists ul { 
+/*  list-style: none; 
+*/}
+
+#lists ul li { 
+  margin-top:5%
+  /*display: inline-block;*/
 }
 
-.img-centered {
-  @extend .col-md-12;
+.text-center {
 }
+
+
