@@ -46,6 +46,7 @@ a {
 
 .container-table {
     display: table;
+    /*margin-top:50%;*/
 }
 
 .vertical-center-row {
