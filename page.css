@@ -61,6 +61,7 @@ a {
 }
 
 .ul {
+  list-style: none
   display: inline;  
 }
 
@@ -72,8 +73,8 @@ a {
 }
 
 #lists ul { 
-/*  list-style: none; 
-*/}
+  list-style: none; 
+}
 
 #lists ul li { 
   margin-top:5%
