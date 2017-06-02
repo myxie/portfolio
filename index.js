@@ -9,8 +9,25 @@ $("#about").click(function(e){
         $(".resume").css('display','none')
         $(".contact").css('display','none');
         $(".portfolio").css('display','none')
+        $(".teaching").css('display','none')
 
         $(".about").css('display','block')
+    }
+});
+
+$("#teaching").click(function(e){
+    var disp = $(".teaching").css('display')
+    if(disp == 'block'){
+        $(".teaching").css('display','none');
+    }
+    else{
+        $(".about").css('display','none');
+        $(".resume").css('display','none')
+        $(".contact").css('display','none');
+        $(".portfolio").css('display','none')
+
+        $(".teaching").css('display','block')
+
     }
 });
 
@@ -23,6 +40,7 @@ $("#portfolio").click(function(e){
         $(".about").css('display','none');
         $(".resume").css('display','none')
         $(".contact").css('display','none');
+        $(".teaching").css('display','none')
 
         $(".portfolio").css('display','block')
 
@@ -39,6 +57,7 @@ $("#resume").click(function(e){
         $(".about").css('display','none');
         $(".contact").css('display','none');
         $(".portfolio").css('display','none')
+        $(".teaching").css('display','none')
 
         $(".resume").css('display','block')
     }
@@ -53,6 +72,8 @@ $("#contact").click(function(e){
         $(".about").css('display','none');
         $(".resume").css('display','none')
         $(".portfolio").css('display','none')
+        $(".teaching").css('display','none')
+
 
         $(".contact").css('display','block')
     }

@@ -7,7 +7,7 @@ html, body, .container-table {
 }
 
 .img-group {
-  margin-top:5%
+  margin-top:2%
   /*bottom:50%;*/
 }
 
@@ -43,6 +43,10 @@ a {
   display:block
 
 }
+.teaching{
+  display:none;
+}
+
 .portfolio{
   display:none;
 }
