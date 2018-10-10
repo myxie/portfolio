@@ -1,17 +1,10 @@
 html, body, .container-table {
    height:  100v;
 }
-.container-table {
-  vertical-align: top;
-    /*margin-top:50%;*/
-}
 
-.img-group {
-  margin-top:2%
-  /*bottom:50%;*/
-}
 
 .wrapper {    
+  margin-top:15%;
   vertical-align:top;
 }
 
@@ -22,11 +15,13 @@ html, body, .container-table {
 .font-heading{
   font-family: 'Cormorant Garamond', serif;
   font-weight:600;
+  font-size: 25px;
 }
 
 .font-sub-headings{
   font-family: 'Cormorant Garamond', serif;
   font-weight:600;
+  font-size: 22px;
 }
   
 .font-text{ 
@@ -57,23 +52,40 @@ a {
 .contact{
   display:none;
 }
+/*
+#nav-heading {
+  text-align: center;
+}
 
-.li{
+#nav-heading ul {
+  list-style: none;
+}
+
+#nav-heading ul li {
+  display: inline;
+}*/
+
+ul{
+  /*text-align: center;*/
+  /*display: inline-block;*/
+  /*margin-left: -8%;*/
+}
+
+ul#horizontal {
+ list-style: none; 
+}
+
+ul#horizontal li{
   display: inline-block;
   /*text-align: center;*/
-  font-size: 40px;
 }
-
-.ul {
-  list-style: none
-  display: inline;  
-}
-
 
 #lists {
   margin: 0 auto 0 auto;
   text-align: left;
-  width:500px;
+  width:600px;
+  /*width:100%;*/
+  /*max-width:800px; */
 }
 
 #lists ul { 
@@ -87,5 +99,3 @@ a {
 
 .text-center {
 }
-
-
